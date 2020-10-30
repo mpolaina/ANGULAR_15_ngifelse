@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body {
+   margin: 0;
+   font-family: Roboto, "Helvetica Neue",
+   sans-serif;
+   background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,212,255,0.3029586834733894) 100%);
+
+}
+
+.img-admin{
+  max-width: 200px;
+}
+
+.card {
+  min-height: 160px;
+}
+
+.btn-info {
+  color: white;
+}
+
+.btn-outline-info:hover {
+  color: white;
+}

@@ -1,0 +1,71 @@
+
+<p>
+  <button class="btn btn-block btn-outline-info text-left pl-4 mr-2 " type="button" data-toggle="collapse" data-target="#favoritos" aria-expanded="false" aria-controls="collapseExample">
+      <i class="fas fa-bookmark"></i>
+      Favoritos
+  </button>
+
+</p>
+<div class="collapse mb-3" id="favoritos">
+  <div class="card card-body rounded-lg border border-info">
+    <ul class="nav flex-column">
+      <li class="nav-item">
+        <button class="btn btn-outline-info btn-block text-left mb-2" aria-current="page" (click)="cargarAdmin()">
+          <i class="far fa-cog mr-2"></i> Administración
+        </button>
+      </li>
+      <li class="nav-item">
+        <a class="btn btn-outline-info btn-block text-left mb-2" href="#">
+          <i class="fal fa-calendar-edit mr-2"></i> Convocatorias</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="btn btn-outline-info btn-block text-left mb-2" href="#">
+          <i class="fal fa-folder-open mr-2"></i> Proyectos propios</a>
+      </li>
+      <li class="nav-item">
+        <a class="btn btn-outline-info btn-block text-left mb-2" href="#">
+          <i class="fal fa-copy mr-2"></i> Registros</a>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="card rounded-lg border border-info">
+  <div class="card-body p-4">
+      <div class="card-tittle mb-3">
+        <h5 class="text-info">
+          <i class="fas fa-send-backward"></i>
+            Módulos
+
+        </h5>
+      </div>
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <button class="btn btn-outline-info btn-block text-left mb-2" aria-current="page" (click)="cargarAdmin()">
+            <i class="far fa-cog mr-2"></i> Administración
+          </button>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-outline-info btn-block text-left mb-2" href="#">
+            <i class="fal fa-calendar-edit mr-2"></i> Convocatorias</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-outline-info btn-block text-left mb-2" href="#">
+            <i class="fal fa-briefcase mr-2"></i> Contratación</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-outline-info btn-block text-left mb-2" href="#">
+            <i class="fal fa-folder-open mr-2"></i> Proyectos propios</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-outline-info btn-block text-left mb-2" href="#">
+            <i class="fal fa-users mr-2"></i> RRHH</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-outline-info btn-block text-left mb-2" href="#">
+            <i class="fal fa-copy mr-2"></i> Registros</a>
+        </li>
+      </ul>
+  </div>
+</div>
+

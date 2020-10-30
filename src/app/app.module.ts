@@ -4,9 +4,18 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+
+import { AcordeonComponent } from './components/acordeon/acordeon.component';
+import { CardComponent } from './components/card/card.component';
+import { AdminComponent } from './pages/admin/admin.component';
+
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AcordeonComponent,
+    CardComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
